@@ -1,6 +1,7 @@
 FROM ubuntu:latest
 
 RUN mkdir /app
+RUN mkdir /app/fan_controler
 COPY run.sh /app/run.sh
 
 RUN apt update \
